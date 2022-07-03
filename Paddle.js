@@ -25,7 +25,7 @@ function mouseMoveHandler(event) {
         if(relativeX - paddleWidth / 2 <= canvas.width - paddleWidth) {
             paddleX = relativeX - paddleWidth / 2;
         }
-        else paddleX = cavas.width - paddleWidth;
+        else paddleX = canvas.width - paddleWidth;
         if(relativeX - paddleWidth / 2 > 0) {
             paddleX = relativeX - paddleWidth / 2;
         }
